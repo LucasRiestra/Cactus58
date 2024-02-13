@@ -59,18 +59,17 @@ nav {
       .navList{
         display: flex;
         padding: 0 !important;
-        align-items: center;
         width: 100%;
+        align-items: center;
+        justify-content: left;
       }
 
       .fabars{
         display: block;
-        z-index: 1;
         color: white;
+        font-size: 3vh;
       }
 
-      
-    
     nav ul li:not(:first-child) {
         display: none;
       }
@@ -78,6 +77,8 @@ nav {
       color: var(--color-naranja);
       opacity: 0.9;
       text-shadow: 2px 2px 8px rgb(0, 0, 0);
+      margin: 0 auto;
+      font-size: 4vh;
     }
 
   
