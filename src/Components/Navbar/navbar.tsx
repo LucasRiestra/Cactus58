@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react';
 import "./navbar.css"
 import '@fortawesome/fontawesome-free/css/all.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth)
@@ -22,6 +24,7 @@ const Navbar = () => {
         <li><Link to="/menu">Menú</Link></li>
         <li><Link to="/contactanos">Contáctanos</Link></li>
         <li><Link to="/conocenos">Conócenos</Link></li>
+        <FontAwesomeIcon icon={faBars} />
       </ul>
     </nav>
   );
