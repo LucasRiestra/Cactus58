@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './home.css'
 
 const Home = () => {
@@ -9,7 +10,7 @@ const Home = () => {
         <h3 className='Title'>La mejor Comida Venezolana de Almeria</h3>
     </div>
     <div className='ImgMenu'>
-        <h1>Visita nuestra Carta</h1>
+        <Link to={'./menu'}><h1>Visita nuestra Carta</h1></Link>
     </div>
     <div className='ImgReserva'>
         <h1>Reserva o Haz tu pedido</h1>

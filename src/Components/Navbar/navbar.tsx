@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav>
       <ul>
         <li><Link to="/" className={windowWidth <= 600 ? 'welcome' : ''}>
-            {windowWidth <= 600 ? '¡Bienvenidos!' : 'Home'}
+            {windowWidth <= 600 ? 'ByCactus58' : 'Home'}
           </Link></li>
         <li><Link to="/menu">Menú</Link></li>
         <li><Link to="/contactanos">Contáctanos</Link></li>

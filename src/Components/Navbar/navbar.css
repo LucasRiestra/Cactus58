@@ -12,13 +12,14 @@ body {
 
 nav {
     background-color: var(--color-negro);
-    position: fixed;
     width: 100%;
     height: 10vh;
     display: flex;
     justify-content: center;
     text-align: center;
     z-index: 1;
+    position: relative;
+    
   }
   
   nav ul {
@@ -76,4 +77,9 @@ nav {
     nav ul li:not(:first-child) {
         display: none;
       }
+    .welcome {
+      color: var(--color-naranja);
+      opacity: 0.9;
+      text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    }
   }
