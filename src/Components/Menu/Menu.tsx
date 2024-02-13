@@ -5,7 +5,7 @@ import { EmpanadasArray } from '../../../Database/empanadas';
 import 'swiper/swiper-bundle.css';
 import "./menu.css"
 
-const Menu = () => {
+const Carta = () => {
     return (
         <div className='Foods'>
             <h1 className='CategoryTitle'>Empanadas</h1>
@@ -33,4 +33,4 @@ const Menu = () => {
     );
 };
 
-export default Menu;
+export default Carta;
