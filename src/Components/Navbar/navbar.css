@@ -24,8 +24,7 @@ nav {
   
   nav ul {
     display: flex;
-    justify-content: center;
-    width:50%;
+    width:75%;
   }
   
   nav ul li {
@@ -44,16 +43,9 @@ nav {
     margin-right: 2vh;
   }
 
-.fas.fa-bars {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    color: var(--color-blanco);
-    background-color: var(--color-naranja);
-    padding: 1vh;
-    border-radius: 5px; 
-    font-size: 3vh;
-  }
+.fabars{
+  display: none;
+}
 
 
   @media screen and (max-width: 500px) {
@@ -64,16 +56,21 @@ nav {
         height: 8vh;
       }
 
-    .fas.fa-bars {
-      display: block;
-
-    }
-
-    nav ul {
-        justify-content: center;
-        
+      .navList{
+        display: flex;
+        padding: 0 !important;
+        align-items: center;
+        width: 100%;
       }
 
+      .fabars{
+        display: block;
+        z-index: 1;
+        color: white;
+      }
+
+      
+    
     nav ul li:not(:first-child) {
         display: none;
       }
@@ -82,4 +79,6 @@ nav {
       opacity: 0.9;
       text-shadow: 2px 2px 8px rgb(0, 0, 0);
     }
+
+  
   }
