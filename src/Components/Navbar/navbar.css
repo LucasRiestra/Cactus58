@@ -58,7 +58,7 @@ nav {
 }
 
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     nav {
         max-width: 500px;
         align-items: center;
@@ -71,7 +71,7 @@ nav {
         padding: 0 !important;
         width: 100%;
         align-items: center;
-        justify-content: left;
+        justify-content: center;
       }
 
       .fabars{
@@ -97,7 +97,7 @@ nav {
       background-image: linear-gradient(to bottom, rgba(255, 223, 167, 0.575), rgba(240, 255, 230, 0.7)), url('https://res.cloudinary.com/dtqgzojs3/image/upload/v1707818605/Cactus58/Background_qe6098.png');
       z-index: 2;
       top: 0;
-      height: 40% !important; 
+      height: 50% !important; 
       border-radius: 0% 0% 10% 0%;
       text-align: center;
       padding-bottom: 4vh;
