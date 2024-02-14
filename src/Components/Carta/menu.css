@@ -2,7 +2,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 3vh;
     margin: 0;
 }
 
@@ -80,9 +79,13 @@ h2.eatTitle{
     .price{
         margin: 0;
         margin-top: 1vh;
-        font-size: 2vh;
+        font-size: 3vh;
         color: var(--color-naranja);
         margin-bottom: 2vh;
+    }
+
+    .Foods{
+        margin-top: 9vh;
     }
 
 }

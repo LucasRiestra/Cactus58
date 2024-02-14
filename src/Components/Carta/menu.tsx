@@ -4,8 +4,18 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EmpanadasArray } from '../../../Database/empanadas';
 import 'swiper/swiper-bundle.css';
 import "./menu.css"
+import { useEffect } from 'react';
 
 const Menu = () => {
+
+    useEffect(() => {
+        window.scroll({
+          top: 0,
+          left: 0,
+          behavior: 'smooth'
+        });
+      }, []);
+
     return (
         <div className='Foods'>
             <h1 className='CategoryTitle'>Empanadas</h1>

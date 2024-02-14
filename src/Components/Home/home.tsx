@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import './home.css'
 
 const Home = () => {
+
   return (
     <section>
     <div className="Logo">
@@ -10,7 +11,7 @@ const Home = () => {
         <h3 className='Title'>La mejor Comida Venezolana de Almeria</h3>
     </div>
     <div className='ImgMenu'>
-        <Link to="/menu"><h1>Visita nuestra Carta</h1></Link>
+        < Link to="/menu"><h1>Visita nuestra Carta</h1></Link>
     </div>
     <div className='ImgReserva'>
         <h1>Reserva o Haz tu pedido</h1>
