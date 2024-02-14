@@ -35,16 +35,16 @@ const Navbar = () => {
     <aside className={`menuAside ${isAsideOpen ? 'open' : ''}`} style={{ position: 'fixed'}}>
       <ul className='ulAside'>
         <li className='liAside' onClick={() => {scrollToTop(); handleAsideClose();}}>
-          <Link to="/">Home</Link>
+          <Link to="/">home</Link>
         </li>
         <li className='liAside' onClick={() => {scrollToTop(); handleAsideClose();}}>
-          <Link to="/menu">Menu</Link>
+          <Link to="/menu">la carta</Link>
         </li>
         <li className='liAside' onClick={() => {scrollToTop(); handleAsideClose();}}>
-          <Link to="/contact">Contactanos</Link>
+          <Link to="/contact">contactanos</Link>
         </li>
         <li className='liAside' onClick={() => {scrollToTop(); handleAsideClose();}}>
-          <Link to="/conocenos">Conocenos</Link>
+          <Link to="/conocenos">conocenos</Link>
         </li>
         <button className="closeAside" onClick={handleAsideClose}>cerrar</button>
       </ul>
