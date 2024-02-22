@@ -49,6 +49,9 @@ h2.eatTitle{
 
 .description{
     color: var(--color-negro);
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    padding: 0 4vh;
 }
 
 .price{

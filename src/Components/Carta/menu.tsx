@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEuroSign } from '@fortawesome/free-solid-svg-icons'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EmpanadasArray } from '../../../Database/empanadas';
+import { ArepasArray, EmpanadasArray, TequeñosArray, PastelitosArray, CachitosArray, SalchipapaArray} from '../../../Database/Food';
 import 'swiper/swiper-bundle.css';
 import "./menu.css"
 import { useEffect } from 'react';
@@ -18,28 +18,10 @@ const Menu = () => {
 
     return (
         <div className='Foods'>
-            <h1 className='CategoryTitle'>Empanadas</h1>
-            <p className='slide'>(desliza)</p>
-            <div className='firstSwiper'>
-            <Swiper
-                spaceBetween={50}
-                slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
-                loop={true}
-            >
-                {EmpanadasArray.map((empanada) => (
-                    <SwiperSlide key={empanada.id}>
-                        <h2 className="eatTitle">{empanada.name}</h2>
-                        <img className="slider-image" src={empanada.img} alt={empanada.name} />
-                        
-                        <p className='description'>{empanada.description}</p>
-                        <p className='price'>Precio: {empanada.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
-                    </SwiperSlide>
-                ))}
-            </Swiper>
-            </div>
             <h1 className='CategoryTitle'>Arepas</h1>
+            <p className='description'>Son tortas, o masas redondas y aplastadas, que se hacen a base de harina de
+              maíz y se cocinan asadas a la plancha. «El pan nuestro de cada día del venezolano»
+                  A continuación te presentamos las combinaciones más famosas en Venezuela.</p>
             <p className='slide'>(desliza)</p>
             <div className='firstSwiper'>
             <Swiper
@@ -49,18 +31,41 @@ const Menu = () => {
                 onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
             >
-                {EmpanadasArray.map((empanada) => (
-                    <SwiperSlide key={empanada.id}>
-                        <h2 className="eatTitle">{empanada.name}</h2>
-                        <img className="slider-image" src={empanada.img} alt={empanada.name} />
+                {ArepasArray.map((arepa) => (
+                    <SwiperSlide key={arepa.id}>
+                        <h2 className="eatTitle">{arepa.name}</h2>
+                        <img className="slider-image" src={arepa.img} alt={arepa.name} />
                         
-                        <p className='description'>{empanada.description}</p>
-                        <p className='price'>Precio: {empanada.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
+                        <p className='description'>{arepa.description}</p>
+                        <p className='price'>Precio: {arepa.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
                     </SwiperSlide>
                 ))}
             </Swiper>
             </div>
-            <h1 className='CategoryTitle'>Cachapas</h1>
+            <h1 className='CategoryTitle'>Tequeños</h1>
+            <p className='description'>Palitos de queso tremendamente populares en Venezuela, cuya
+              peculiaridad es la masa de harina de trigo frita. Se sirven con Salsa de ajo y cilantro. Algunos prefieren con
+              mermelada, que Dios los perdone.</p>
+            <p className='slide'>(desliza)</p>
+            <div className='firstSwiper'>
+            <Swiper
+                spaceBetween={50}
+                slidesPerView={1}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper) => console.log(swiper)}
+                loop={true}
+            >
+                {TequeñosArray.map((tequeños) => (
+                    <SwiperSlide key={tequeños.id}>
+                        <img className="slider-image" src={tequeños.img} />
+                        <p className='price'>Precio: {tequeños.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+            </div>
+            <h1 className='CategoryTitle'>Empanadas</h1>
+            <p className='description'>Elaboradas con la misma masa de maíz que las arepas,
+            tienen forma de media-luna y se sirven fritas. Si te dan el culito de la empanada, esa persona te ama.</p>
             <p className='slide'>(desliza)</p>
             <div className='firstSwiper'>
             <Swiper
@@ -82,6 +87,7 @@ const Menu = () => {
             </Swiper>
             </div>
             <h1 className='CategoryTitle'>Pastelitos</h1>
+            <p className='description'>Empanadillas de harina de trigo,.</p>
             <p className='slide'>(desliza)</p>
             <div className='firstSwiper'>
             <Swiper
@@ -91,7 +97,7 @@ const Menu = () => {
                 onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
             >
-                {EmpanadasArray.map((empanada) => (
+                {PastelitosArray.map((empanada) => (
                     <SwiperSlide key={empanada.id}>
                         <h2 className="eatTitle">{empanada.name}</h2>
                         <img className="slider-image" src={empanada.img} alt={empanada.name} />
@@ -102,6 +108,64 @@ const Menu = () => {
                 ))}
             </Swiper>
             </div>
+            <h1 className='CategoryTitle'>Cachitos</h1>
+            <p className='description'>es un pan similar al brioche y estárelleno de trozos de jamón York y bacon. Nunca hay, si hoy tenemos estás de suerte..</p>
+            <div className='firstSwiper'>
+            <Swiper
+                spaceBetween={50}
+                slidesPerView={1}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper) => console.log(swiper)}
+                loop={true}
+            >
+                {CachitosArray.map((tequeños) => (
+                    <SwiperSlide key={tequeños.id}>
+                        <img className="slider-image" src={tequeños.img} />
+                        <p className='price'>Precio: {tequeños.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+            </div>
+            <h1 className='CategoryTitle'>Salchipapa</h1>
+            <p className='description'>es una comida rápida suramericana que consiste en rodajas de salchicha frita y patatas a la francesa. Le agregamos cheddar, queso y salsas variadas. también puedes pedirla con ternera, pollo o mixta. Procura tener mucha hambre o venir acompañado.</p>
+            <div className='firstSwiper'>
+            <Swiper
+                spaceBetween={50}
+                slidesPerView={1}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper) => console.log(swiper)}
+                loop={true}
+            >
+                {SalchipapaArray.map((tequeños) => (
+                    <SwiperSlide key={tequeños.id}>
+                        <img className="slider-image" src={tequeños.img} />
+                        <p className='price'>Precio: {tequeños.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+            </div>
+            <h1 className='CategoryTitle'>Perrito latino</h1>
+            <p className='description'>perrito de 16 cm aprox. relleno con doble salchicha de pavo, ensalada rallada de zanahoria y repollo, bacon y queso latino a la plancha, acompañado de salsas y patatas fritas. Como decimos en Venezuela: «Un perro con todos los juguetes»</p>
+            <div className='firstSwiper'>
+            <Swiper
+                spaceBetween={50}
+                slidesPerView={1}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper) => console.log(swiper)}
+                loop={true}
+            >
+                {SalchipapaArray.map((tequeños) => (
+                    <SwiperSlide key={tequeños.id}>
+                        <img className="slider-image" src={tequeños.img} />
+                        <p className='price'>Precio: {tequeños.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+            </div>
+            
+
+  
+
         </div>
     );
 };
