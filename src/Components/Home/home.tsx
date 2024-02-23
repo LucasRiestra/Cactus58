@@ -14,10 +14,10 @@ const Home = () => {
         < Link to="/menu"><h1>Visita nuestra Carta</h1></Link>
     </div>
     <div className='ImgReserva'>
-        <h1>Reserva o Haz tu pedido</h1>
+    < Link to="/contact"><h1>Reserva o Haz tu pedido</h1></Link>
     </div>
     <div className='ImgContact'>
-        <h1>Conocenos</h1>
+    < Link to="/conocenos"><h1>Conocenos</h1></Link>
     </div>
     </section>
   );
