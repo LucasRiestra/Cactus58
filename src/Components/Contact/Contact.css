@@ -1,0 +1,15 @@
+.reservas{
+    margin-top: 10vh;
+    font-size: 10vh;
+    text-shadow: 1px 3px 3px var(--color-naranja);
+}
+
+.reservas-text{
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    padding: 2vh 4vh;
+}
+
+.div-reservas{
+    margin-bottom: 20vh;
+}

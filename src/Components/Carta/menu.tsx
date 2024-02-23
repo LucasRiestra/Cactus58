@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEuroSign } from '@fortawesome/free-solid-svg-icons'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { ArepasArray, EmpanadasArray, TequeñosArray, PastelitosArray, CachitosArray, SalchipapaArray} from '../../../Database/Food';
+import { ArepasArray, EmpanadasArray, TequeñosArray, PastelitosArray, CachitosArray, SalchipapaArray, CachapasArray} from '../../../Database/Food';
 import 'swiper/swiper-bundle.css';
 import "./menu.css"
 import { useEffect } from 'react';
@@ -46,7 +46,6 @@ const Menu = () => {
             <p className='description'>Palitos de queso tremendamente populares en Venezuela, cuya
               peculiaridad es la masa de harina de trigo frita. Se sirven con Salsa de ajo y cilantro. Algunos prefieren con
               mermelada, que Dios los perdone.</p>
-            <p className='slide'>(desliza)</p>
             <div className='firstSwiper'>
             <Swiper
                 spaceBetween={50}
@@ -158,6 +157,46 @@ const Menu = () => {
                     <SwiperSlide key={tequeños.id}>
                         <img className="slider-image" src={tequeños.img} />
                         <p className='price'>Precio: {tequeños.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+            </div>
+            <h1 className='CategoryTitle'>Pepito latino</h1>
+            <p className='description'>Estilo perrito. Puedes pedirlo de Ternera, Pollo o Mixto, también contiene ensalada rallada de zanahoria y repollo, además de salchichas troceadas de pavo, cheddar y queso Gouda, acompañado también de patatas fritas. Parece perro, pero no es perro, es Pepito, no insista.</p>
+            <div className='firstSwiper'>
+            <Swiper
+                spaceBetween={50}
+                slidesPerView={1}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper) => console.log(swiper)}
+                loop={true}
+            >
+                {SalchipapaArray.map((tequeños) => (
+                    <SwiperSlide key={tequeños.id}>
+                        <img className="slider-image" src={tequeños.img} />
+                        <p className='price'>Precio: {tequeños.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+            </div>
+            <h1 className='CategoryTitle'>Cachapas</h1>
+            <p className='description'>muy parecido a las panquecas, están hechas de maíz tierno molido,se cocinan en la plancha y terminan en forma de media-Luna. Tienen un sabor dulzón y se rellenan casi siempre con los mismos ingredientes que las arepas. Dato curioso: Solo el 3 % de los venezolanos sabe darle la vuelta a la cachapa.</p>
+            <p className='slide'>(desliza)</p>
+            <div className='firstSwiper'>
+            <Swiper
+                spaceBetween={50}
+                slidesPerView={1}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper) => console.log(swiper)}
+                loop={true}
+            >
+                {CachapasArray.map((arepa) => (
+                    <SwiperSlide key={arepa.id}>
+                        <h2 className="eatTitle">{arepa.name}</h2>
+                        <img className="slider-image" src={arepa.img} alt={arepa.name} />
+                        
+                        <p className='description'>{arepa.description}</p>
+                        <p className='price'>Precio: {arepa.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
                     </SwiperSlide>
                 ))}
             </Swiper>

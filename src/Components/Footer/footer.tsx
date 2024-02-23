@@ -1,25 +1,19 @@
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
 import './footer.css';
 
 const Footer = () => {
   return (
     <footer className="footer">
-    <div>
-        <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
-          <FaFacebook size={24} />
-        </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
-          <FaInstagram size={24} />
-        </a>
-        <a href="https://www.twitter.com" target="_blank" rel="noreferrer">
-          <FaTwitter size={24} />
-        </a>
-        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
-          <FaLinkedin size={24} />
+    <div className='icon'>
+        <a href="https://www.instagram.com/bycactus58/" target="_blank" rel="noreferrer">
+          <FaInstagram size={48} />
         </a>
       </div>
       <div>
-        <p>© Powered By Lucas Riestra</p>
+        <p className='reservas-footer'>Reservas: 671-35-92-21 / 950-67-18-22 </p>
+      </div>
+      <div>
+        <p>© Developed By Lucas Riestra</p>
       </div>
       
     </footer>

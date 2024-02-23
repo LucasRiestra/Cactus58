@@ -51,3 +51,11 @@ type Pepito = {
     price: number;
     img: string;
 }
+
+type Cachapas = {
+    id: number;
+    name: string;
+    price: number;
+    img: string;
+    description: string;
+}

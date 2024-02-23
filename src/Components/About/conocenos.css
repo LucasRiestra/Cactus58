@@ -1,0 +1,11 @@
+.conocenos{
+    margin-top: 10vh;
+    font-size: 10vh;
+    text-shadow: 1px 3px 3px var(--color-naranja);
+}
+
+.conocenos-text{
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    padding: 2vh 4vh;
+}
