@@ -13,7 +13,8 @@ const Footer = () => {
         <p className='reservas-footer'>Reservas: 671-35-92-21 / 950-67-18-22 </p>
       </div>
       <div>
-        <p>© Developed By Lucas Riestra</p>
+        <p>© Developed By<a href="https://www.lucasriestra.com/" target="_blank" rel="noreferrer">Lucas Riestra</a>
+        </p>
       </div>
       
     </footer>
