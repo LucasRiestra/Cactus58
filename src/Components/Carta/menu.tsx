@@ -180,7 +180,7 @@ const Menu = () => {
             </Swiper>
             </div>
             <h1 className='CategoryTitle'>Cachapas</h1>
-            <p className='description'>muy parecido a las panquecas, están hechas de maíz tierno molido,se cocinan en la plancha y terminan en forma de media-Luna. Tienen un sabor dulzón y se rellenan casi siempre con los mismos ingredientes que las arepas. Dato curioso: Solo el 3 % de los venezolanos sabe darle la vuelta a la cachapa.</p>
+            <p className='description'>muy parecido a las panquecas, están hechas de maíz tierno molido, se cocinan en la plancha y terminan en forma de media-Luna. Tienen un sabor dulzón y se rellenan casi siempre con los mismos ingredientes que las arepas. Dato curioso: Solo el 3 % de los venezolanos sabe darle la vuelta a la cachapa.</p>
             <p className='slide'>(desliza)</p>
             <div className='firstSwiper'>
             <Swiper

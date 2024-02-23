@@ -5,19 +5,19 @@ export const ArepasArray: Arepa[] = [{
     name: "Ternera y Queso:",
     price: 2.80,
     img: "https://via.placeholder.com/150",
-    description: "Ternera desmenuzada y guisada como nos enseñó mi abuela, y queso amarillo. En Venezuela, a esta le llamamos -Pelua-"
+    description: "Ternera desmenuzada y guisada como nos enseñó mi abuela, y queso amarillo. En Venezuela, a esta le llamamos -Pelua-."
 }, {
     id: 2,
     name: "Pollo y queso:",
     price: 2.80,
     img: "https://via.placeholder.com/150",
-    description: "Pollo desmenuzado y guisado, también con queso amarillo. Pídela como -Catira-"
+    description: "Pollo desmenuzado y guisado, también con queso amarillo. Pídela como -Catira-."
 } , {
     id: 3,
     name: "Reina Pepiada:",
     price: 2.80,
     img: "https://via.placeholder.com/150",
-    description: "Pollo desmenuzado, con el sabor característico del cilantro y la cebolla sofrita apenas perceptible, Aguacate y mayonesa. Creada en homenaje a la miss Venezuela Susana Duijm (1955)"
+    description: "Pollo desmenuzado, con el sabor característico del cilantro y la cebolla sofrita apenas perceptible, Aguacate y mayonesa. Creada en homenaje a la miss Venezuela Susana Duijm (1955)."
 }, {
     id: 4,
     name: "Dominó:",
@@ -64,19 +64,19 @@ export const EmpanadasArray: Empanadas[] = [{
     name: "Pollo Mechado:",
     price: 2.80,
     img: "https://via.placeholder.com/150",
-    description: "Pollo desmenuzado y guisado"
+    description: "Pollo desmenuzado y guisado."
 }, {
     id: 2,
     name: "Queso:",
     price: 2.80,
     img: "https://via.placeholder.com/150",
-    description: "Queso Fresco Latino"
+    description: "Queso Fresco Latino."
 } , {
     id: 3,
     name: "Dominó:",
     price: 2.80,
     img: "https://via.placeholder.com/150",
-    description: "Alubias Negras y Queso Latino"
+    description: "Alubias Negras y Queso Latino."
 }, {
     id: 4,
     name: "Plátano y Queso:",
@@ -92,19 +92,19 @@ export const PastelitosArray: Pastelitos[] = [{
     name: "Pollo Mechado:",
     price: 2.80,
     img: "https://via.placeholder.com/150",
-    description: "Pollo desmenuzado y guisado"
+    description: "Pollo desmenuzado y guisado."
 }, {
     id: 2,
     name: "Pollo Mechado:",
     price: 2.80,
     img: "https://via.placeholder.com/150",
-    description: "Pollo desmenuzado y guisado"
+    description: "Pollo desmenuzado y guisado."
 }, {
     id: 3,
     name: "Pollo Mechado:",
     price: 2.80,
     img: "https://via.placeholder.com/150",
-    description: "Pollo desmenuzado y guisado"
+    description: "Pollo desmenuzado y guisado."
 }
 ]
 
@@ -142,7 +142,7 @@ export const CachapasArray: Cachapas[] = [{
     name: "Ternera y Queso:",
     price: 2.80,
     img: "https://via.placeholder.com/150",
-    description: "Ternera desmenuzada y guisada como nos enseñó mi abuela, y queso amarillo. En Venezuela, a esta le llamamos -Pelua-"
+    description: "Ternera desmenuzada y guisada como nos enseñó mi abuela, y queso amarillo. En Venezuela, a esta le llamamos -Pelua-."
 }, {
     id: 2,
     name: "Pollo y queso:",
