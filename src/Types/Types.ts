@@ -36,6 +36,7 @@ type Cachitos = {
 
 type Salchipapa = {
     id: number;
+    name: string;
     price: number;
     img: string;
 }
