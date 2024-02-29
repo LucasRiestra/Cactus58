@@ -219,44 +219,74 @@ export const CachapasArray: Cachapas[] = [{
 
 export const BebidasArray: Bebidas[] = [{
     id: 1,
-    name: "Malta Polar y Pony:",
+    name: "Malta Polar:",
     price: 2.50,
-    img: "https://via.placeholder.com/150",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245808/Cactus58/20240229_203658_nszzbj.jpg",
 }, {
     id: 2,
     name: "Coca-cola:",
     price: 2.50,
-    img: "https://via.placeholder.com/150",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_204400_aff3ny.jpg",
 }, {
     id: 3,
     name: "Coca-cola Zero:",
     price: 2.50,
-    img: "https://via.placeholder.com/150",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_204757_jck8eu.jpg",
 }, {
     id: 4,
     name: "Aquarius Limón:",
     price: 2.50,
-    img: "https://via.placeholder.com/150",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245810/Cactus58/20240229_212355_zmxfck.jpg",
 }, {
     id: 5,
-    name: "Cerveza:",
+    name: "Cerveza Polar:",
     price: 3.50,
-    img: "https://via.placeholder.com/150",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_215308_wwgzkj.jpg",
 }, {
     id: 6,
     name: "Fanta Naranja:",
     price: 3.50,
-    img: "https://via.placeholder.com/150",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245810/Cactus58/20240229_210403_y6edx7.jpg",
 }, {
     id: 7,
     name: "Nestea:",
     price: 2.50,
-    img: "https://via.placeholder.com/150",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245808/Cactus58/20240229_210708_f16d8x.jpg",
 }, {
     id: 8,
     name: "Batidos Naturales:",
     price: 2.50,
     img: "https://via.placeholder.com/150",
+}, {
+    id: 9,
+    name: "Malta Pony:",
+    price: 1.50,
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245808/Cactus58/20240229_203658_nszzbj.jpg",
+}, { 
+    id: 10,
+    name: "Estrella de Galicia:",
+    price: 3.50,
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_215043_nfzg6m.jpg",
+}, { 
+    id: 11,
+    name: "Mahou sin alcohol:",
+    price: 3.50,
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245808/Cactus58/20240229_215201_maervc.jpg",
+}, { 
+    id: 12,
+    name: "Casera de limon:",
+    price: 3.50,
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_215609_chsubk.jpg",
+}, { 
+    id: 13,
+    name: "Cerveza Corona:",
+    price: 3.50,
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245808/Cactus58/20240229_214752_xexl4p.jpg",
+} , { 
+    id: 14,
+    name: "Frescolita:",
+    price: 3.50,
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_205638_pkks58.jpg",
 }
 ]
 
@@ -265,21 +295,8 @@ export const PostresArray: Postres[] = [
         id: 1,
         name: "Tres Leches:",
         price: 4.50,
-        img: "https://via.placeholder.com/150",
-        description:"Tres leches es un postre muy popular en América Latina. Consiste en un bizcocho bañado en tres tipos de leche: leche evaporada, leche condensada y crema de leche. Se sirve frío y puede llevar merengue o crema chantilly."
-    }, {
-        
-        id: 2,
-        name: "Tres Leches:",
-        price: 4.50,
-        img: "https://via.placeholder.com/150",
-        description:"Tres leches es un postre muy popular en América Latina. Consiste en un bizcocho bañado en tres tipos de leche: leche evaporada, leche condensada y crema de leche. Se sirve frío y puede llevar merengue o crema chantilly."
-}, {
-        
-    id: 3,
-    name: "Tres Leches:",
-    price: 4.50,
-    img: "https://via.placeholder.com/150",
-    description:"Tres leches es un postre muy popular en América Latina. Consiste en un bizcocho bañado en tres tipos de leche: leche evaporada, leche condensada y crema de leche. Se sirve frío y puede llevar merengue o crema chantilly."
-}
+        img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245808/Cactus58/20240229_221426_o7ypif.jpg",
+        description:"Consiste en un bizcocho bañado en tres tipos de leche: leche evaporada, leche condensada y crema de leche. Se sirve frío y puede llevar merengue o crema chantilly."
+    }, 
+         
 ]
