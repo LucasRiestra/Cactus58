@@ -217,3 +217,69 @@ export const CachapasArray: Cachapas[] = [{
 }
 ]
 
+export const BebidasArray: Bebidas[] = [{
+    id: 1,
+    name: "Malta Polar y Pony:",
+    price: 2.50,
+    img: "https://via.placeholder.com/150",
+}, {
+    id: 2,
+    name: "Coca-cola:",
+    price: 2.50,
+    img: "https://via.placeholder.com/150",
+}, {
+    id: 3,
+    name: "Coca-cola Zero:",
+    price: 2.50,
+    img: "https://via.placeholder.com/150",
+}, {
+    id: 4,
+    name: "Aquarius Limón:",
+    price: 2.50,
+    img: "https://via.placeholder.com/150",
+}, {
+    id: 5,
+    name: "Cerveza:",
+    price: 3.50,
+    img: "https://via.placeholder.com/150",
+}, {
+    id: 6,
+    name: "Fanta Naranja:",
+    price: 3.50,
+    img: "https://via.placeholder.com/150",
+}, {
+    id: 7,
+    name: "Nestea:",
+    price: 2.50,
+    img: "https://via.placeholder.com/150",
+}, {
+    id: 8,
+    name: "Batidos Naturales:",
+    price: 2.50,
+    img: "https://via.placeholder.com/150",
+}
+]
+
+export const PostresArray: Postres[] = [
+    {
+        id: 1,
+        name: "Tres Leches:",
+        price: 4.50,
+        img: "https://via.placeholder.com/150",
+        description:"Tres leches es un postre muy popular en América Latina. Consiste en un bizcocho bañado en tres tipos de leche: leche evaporada, leche condensada y crema de leche. Se sirve frío y puede llevar merengue o crema chantilly."
+    }, {
+        
+        id: 2,
+        name: "Tres Leches:",
+        price: 4.50,
+        img: "https://via.placeholder.com/150",
+        description:"Tres leches es un postre muy popular en América Latina. Consiste en un bizcocho bañado en tres tipos de leche: leche evaporada, leche condensada y crema de leche. Se sirve frío y puede llevar merengue o crema chantilly."
+}, {
+        
+    id: 3,
+    name: "Tres Leches:",
+    price: 4.50,
+    img: "https://via.placeholder.com/150",
+    description:"Tres leches es un postre muy popular en América Latina. Consiste en un bizcocho bañado en tres tipos de leche: leche evaporada, leche condensada y crema de leche. Se sirve frío y puede llevar merengue o crema chantilly."
+}
+]

@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEuroSign } from '@fortawesome/free-solid-svg-icons'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { ArepasArray, EmpanadasArray, TequeñosArray, PastelitosArray, CachitosArray, SalchipapaArray, CachapasArray} from '../../../Database/Food';
+import { ArepasArray, EmpanadasArray, TequeñosArray, PastelitosArray, CachitosArray, SalchipapaArray, CachapasArray, BebidasArray, PostresArray} from '../../../Database/Food';
 import 'swiper/swiper-bundle.css';
 import "./menu.css"
 import { useEffect } from 'react';
@@ -197,6 +197,46 @@ const Menu = () => {
                         
                         <p className='description'>{arepa.description}</p>
                         <p className='price'>Precio: {arepa.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+            </div>
+            <h1 className='CategoryTitle'>Bebidas</h1>
+            <p className='slide'>(desliza)</p>
+            <div className='firstSwiper'>
+            <Swiper
+                spaceBetween={50}
+                slidesPerView={1}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper) => console.log(swiper)}
+                loop={true}
+            >
+                {BebidasArray.map((arepa) => (
+                    <SwiperSlide key={arepa.id}>
+                        <h2 className="eatTitle">{arepa.name}</h2>
+                        <img className="slider-image" src={arepa.img} alt={arepa.name} />
+                        <p className='price'>Precio: {arepa.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+            </div>
+            <h1 className='CategoryTitle'>Postres</h1>
+            <p className='slide'>(desliza)</p>
+            <div className='firstSwiper'>
+            <Swiper
+                spaceBetween={50}
+                slidesPerView={1}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper) => console.log(swiper)}
+                loop={true}
+            >
+                {PostresArray.map((empanada) => (
+                    <SwiperSlide key={empanada.id}>
+                        <h2 className="eatTitle">{empanada.name}</h2>
+                        <img className="slider-image" src={empanada.img} alt={empanada.name} />
+                        
+                        <p className='description'>{empanada.description}</p>
+                        <p className='price'>Precio: {empanada.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
                     </SwiperSlide>
                 ))}
             </Swiper>

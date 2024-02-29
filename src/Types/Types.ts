@@ -60,3 +60,18 @@ type Cachapas = {
     img: string;
     description: string;
 }
+
+type Bebidas = {
+    id: number;
+    name: string;
+    price: number;
+    img: string;
+}
+
+type Postres = {
+    id: number;
+    name: string;
+    price: number;
+    img: string;
+    description: string;
+}
