@@ -241,7 +241,7 @@ export const BebidasArray: Bebidas[] = [{
     id: 5,
     name: "Cerveza Polar:",
     price: 3.50,
-    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_215308_wwgzkj.jpg",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709248228/Cactus58/5115570d-cdac-445c-ae65-7065e4777199_cxevej.jpg",
 }, {
     id: 6,
     name: "Fanta Naranja:",
@@ -271,7 +271,7 @@ export const BebidasArray: Bebidas[] = [{
     id: 11,
     name: "Mahou sin alcohol:",
     price: 3.50,
-    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245808/Cactus58/20240229_215201_maervc.jpg",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709247320/Cactus58/20240229_215201_dq6uav.jpg",
 }, { 
     id: 12,
     name: "Casera de limon:",
