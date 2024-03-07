@@ -194,7 +194,7 @@ export const CachapasArray: Cachapas[] = [{
     id: 5,
     name: "Reina pepiada:",
     price: 9.90,
-    img: "https://via.placeholder.com/150",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709836302/CachapaReinaPepiada_x55wqq.png",
     description: "Ternera desmechada, queso amarillo, plátano macho frito y alubias negras."
 }, {
     id: 6,

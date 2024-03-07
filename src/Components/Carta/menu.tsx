@@ -193,7 +193,7 @@ const Menu = () => {
                 {CachapasArray.map((arepa) => (
                     <SwiperSlide key={arepa.id}>
                         <h2 className="eatTitle">{arepa.name}</h2>
-                        <img className="slider-image" src={arepa.img} alt={arepa.name} />
+                        <img className="slider-image-cachapa" src={arepa.img} alt={arepa.name} />
                         
                         <p className='description'>{arepa.description}</p>
                         <p className='price'>Precio: {arepa.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
