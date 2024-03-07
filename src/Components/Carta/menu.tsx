@@ -179,8 +179,8 @@ const Menu = () => {
                 ))}
             </Swiper>
             </div>
+            
             <h1 className='CategoryTitle'>Cachapas</h1>
-            <p className='description'>muy parecido a las panquecas, están hechas de maíz tierno molido, se cocinan en la plancha y terminan en forma de media-Luna. Tienen un sabor dulzón y se rellenan casi siempre con los mismos ingredientes que las arepas. Dato curioso: Solo el 3 % de los venezolanos sabe darle la vuelta a la cachapa.</p>
             <p className='slide'>(desliza)</p>
             <div className='firstSwiper'>
             <Swiper
@@ -194,13 +194,12 @@ const Menu = () => {
                     <SwiperSlide key={arepa.id}>
                         <h2 className="eatTitle">{arepa.name}</h2>
                         <img className="slider-image-cachapa" src={arepa.img} alt={arepa.name} />
-                        
-                        <p className='description'>{arepa.description}</p>
                         <p className='price'>Precio: {arepa.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
                     </SwiperSlide>
                 ))}
             </Swiper>
             </div>
+
             <h1 className='CategoryTitle'>Bebidas</h1>
             <p className='slide'>(desliza)</p>
             <div className='firstSwiper'>
@@ -220,6 +219,7 @@ const Menu = () => {
                 ))}
             </Swiper>
             </div>
+
             <h1 className='CategoryTitle'>Postres</h1>
             <p className='slide'>(desliza)</p>
             <div className='firstSwiper'>
