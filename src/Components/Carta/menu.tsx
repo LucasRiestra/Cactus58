@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEuroSign } from '@fortawesome/free-solid-svg-icons'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { ArepasArray, EmpanadasArray, TequeñosArray, PastelitosArray, CachitosArray, SalchipapaArray, CachapasArray, BebidasArray, PostresArray} from '../../../Database/Food';
+import { ArepasArray, EmpanadasArray, TequeñosArray, PastelitosArray, CachitosArray, SalchipapaArray, CachapasArray, BebidasArray, PostresArray, PerritoArray, PepitoArray} from '../../../Database/Food';
 import 'swiper/swiper-bundle.css';
 import "./menu.css"
 import { useEffect } from 'react';
@@ -153,7 +153,7 @@ const Menu = () => {
                 onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
             >
-                {SalchipapaArray.map((tequeños) => (
+                {PerritoArray.map((tequeños) => (
                     <SwiperSlide key={tequeños.id}>
                         <img className="slider-image" src={tequeños.img} />
                         <p className='price'>Precio: {tequeños.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
@@ -171,7 +171,7 @@ const Menu = () => {
                 onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
             >
-                {SalchipapaArray.map((tequeños) => (
+                {PepitoArray.map((tequeños) => (
                     <SwiperSlide key={tequeños.id}>
                         <img className="slider-image" src={tequeños.img} />
                         <p className='price'>Precio: {tequeños.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
@@ -194,7 +194,9 @@ const Menu = () => {
                     <SwiperSlide key={arepa.id}>
                         <h2 className="eatTitle">{arepa.name}</h2>
                         <img className="slider-image-cachapa" src={arepa.img} alt={arepa.name} />
+                        <p className='description'>{arepa.description}</p>
                         <p className='price'>Precio: {arepa.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
+                        
                     </SwiperSlide>
                 ))}
             </Swiper>
