@@ -211,7 +211,7 @@ const Menu = () => {
                 {foodData.bebidas.map((arepa) => (
                     <SwiperSlide key={arepa.id}>
                         <h2 className="eatTitle">{arepa.name}</h2>
-                        <img className="slider-image" src={arepa.img} alt={arepa.name} />
+                        <img className="slider-image-drinks" src={arepa.img} alt={arepa.name} />
                         <p className='price'>Precio: {arepa.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
                     </SwiperSlide>
                 ))}
