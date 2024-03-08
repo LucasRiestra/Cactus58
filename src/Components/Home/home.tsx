@@ -8,7 +8,7 @@ const Home = () => {
     <div className="Logo">
         <img className="Transparent-Logo" src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1707761777/Cactus58/Dise%C3%B1o_sin_t%C3%ADtulo-removebg-preview_lbi4nr.png" alt="Logo" />
         <h1 className='LogoTitle'>ByCactus58</h1>
-        <h3 className='Title'>La mejor Comida Venezolana de Almeria</h3>
+        <h3 className='Title'>La mejor Comida Venezolana de Almería</h3>
     </div>
     <div className='ImgMenu'>
         < Link to="/menu"><h1>Visita nuestra Carta</h1></Link>
