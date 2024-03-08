@@ -241,7 +241,7 @@ export const BebidasArray: Bebidas[] = [{
     id: 5,
     name: "Cerveza Polar:",
     price: 3.50,
-    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709248228/Cactus58/5115570d-cdac-445c-ae65-7065e4777199_cxevej.jpg",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709894316/Cactus58/WhatsApp_Image_2024-03-08_at_11.33.11_AM_hswiqj.jpg",
 }, {
     id: 6,
     name: "Fanta Naranja:",

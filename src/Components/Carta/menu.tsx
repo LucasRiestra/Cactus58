@@ -4,9 +4,23 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { ArepasArray, EmpanadasArray, TequeñosArray, PastelitosArray, CachitosArray, SalchipapaArray, CachapasArray, BebidasArray, PostresArray, PerritoArray, PepitoArray} from '../../../Database/Food';
 import 'swiper/swiper-bundle.css';
 import "./menu.css"
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 
 const Menu = () => {
+
+    const foodData = useMemo(() => ({
+        arepas: ArepasArray,
+        empanadas: EmpanadasArray,
+        tequeños: TequeñosArray,
+        pastelitos: PastelitosArray,
+        cachitos: CachitosArray,
+        salchipapa: SalchipapaArray,
+        cachapas: CachapasArray,
+        bebidas: BebidasArray,
+        postres: PostresArray,
+        perrito: PerritoArray,
+        pepito: PepitoArray
+    }), []);
 
     useEffect(() => {
         window.scroll({
@@ -27,11 +41,9 @@ const Menu = () => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
             >
-                {ArepasArray.map((arepa) => (
+                {foodData.arepas.map((arepa) => (
                     <SwiperSlide key={arepa.id}>
                         <h2 className="eatTitle">{arepa.name}</h2>
                         <img className="slider-image" src={arepa.img} alt={arepa.name} />
@@ -50,11 +62,9 @@ const Menu = () => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
             >
-                {TequeñosArray.map((tequeños) => (
+                {foodData.tequeños.map((tequeños) => (
                     <SwiperSlide key={tequeños.id}>
                         <img className="slider-image" src={tequeños.img} />
                         <p className='price'>Precio: {tequeños.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
@@ -70,11 +80,9 @@ const Menu = () => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
             >
-                {EmpanadasArray.map((empanada) => (
+                {foodData.empanadas.map((empanada) => (
                     <SwiperSlide key={empanada.id}>
                         <h2 className="eatTitle">{empanada.name}</h2>
                         <img className="slider-image" src={empanada.img} alt={empanada.name} />
@@ -92,11 +100,9 @@ const Menu = () => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
             >
-                {PastelitosArray.map((empanada) => (
+                {foodData.pastelitos.map((empanada) => (
                     <SwiperSlide key={empanada.id}>
                         <h2 className="eatTitle">{empanada.name}</h2>
                         <img className="slider-image" src={empanada.img} alt={empanada.name} />
@@ -113,11 +119,9 @@ const Menu = () => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
             >
-                {CachitosArray.map((tequeños) => (
+                {foodData.cachitos.map((tequeños) => (
                     <SwiperSlide key={tequeños.id}>
                         <img className="slider-image" src={tequeños.img} />
                         <p className='price'>Precio: {tequeños.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
@@ -131,12 +135,11 @@ const Menu = () => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
             >
-                {SalchipapaArray.map((tequeños) => (
+                {foodData.salchipapa.map((tequeños) => (
                     <SwiperSlide key={tequeños.id}>
+                        <h2 className="eatTitle">{tequeños.name}</h2>
                         <img className="slider-image" src={tequeños.img} />
                         <p className='price'>Precio: {tequeños.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
                     </SwiperSlide>
@@ -149,11 +152,9 @@ const Menu = () => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
             >
-                {PerritoArray.map((tequeños) => (
+                {foodData.perrito.map((tequeños) => (
                     <SwiperSlide key={tequeños.id}>
                         <img className="slider-image" src={tequeños.img} />
                         <p className='price'>Precio: {tequeños.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
@@ -167,11 +168,9 @@ const Menu = () => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
             >
-                {PepitoArray.map((tequeños) => (
+                {foodData.pepito.map((tequeños) => (
                     <SwiperSlide key={tequeños.id}>
                         <img className="slider-image" src={tequeños.img} />
                         <p className='price'>Precio: {tequeños.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
@@ -187,11 +186,9 @@ const Menu = () => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
             >
-                {CachapasArray.map((arepa) => (
+                {foodData.cachapas.map((arepa) => (
                     <SwiperSlide key={arepa.id}>
                         <h2 className="eatTitle">{arepa.name}</h2>
                         <img className="slider-image-cachapa" src={arepa.img} alt={arepa.name} />
@@ -209,11 +206,9 @@ const Menu = () => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
             >
-                {BebidasArray.map((arepa) => (
+                {foodData.bebidas.map((arepa) => (
                     <SwiperSlide key={arepa.id}>
                         <h2 className="eatTitle">{arepa.name}</h2>
                         <img className="slider-image" src={arepa.img} alt={arepa.name} />
@@ -228,11 +223,9 @@ const Menu = () => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
             >
-                {PostresArray.map((empanada) => (
+                {foodData.postres.map((empanada) => (
                     <SwiperSlide key={empanada.id}>
                         <h2 className="eatTitle">{empanada.name}</h2>
                         <img className="slider-image" src={empanada.img} alt={empanada.name} />
