@@ -101,10 +101,10 @@ export const EmpanadasArray: Empanadas[] = [{
 
 export const PastelitosArray: Pastelitos[] = [{
     id: 1,
-    name: "Pollo Mechado:",
+    name: "Carne Mechada:",
     price: 2.80,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891393/Cactus58/Pastelito_fondo_negro_ba0e1s.png",
-    description: "Pollo desmenuzado y guisado."
+    description: "Carne de ternera desmenuzada y guisada."
 }, {
     id: 2,
     name: "Pollo Mechado:",
@@ -113,10 +113,10 @@ export const PastelitosArray: Pastelitos[] = [{
     description: "Pollo desmenuzado y guisado."
 }, {
     id: 3,
-    name: "Pollo Mechado:",
+    name: "Queso:",
     price: 2.80,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891393/Cactus58/Pastelito_fondo_negro_ba0e1s.png",
-    description: "Pollo desmenuzado y guisado."
+    description: "Queso Fresco Latino."
 }
 ]
 
