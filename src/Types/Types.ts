@@ -75,3 +75,10 @@ type Postres = {
     img: string;
     description: string;
 }
+
+type ZumosNaturales = {
+    id: number;
+    name: string;
+    price: number;
+    img: string;
+}

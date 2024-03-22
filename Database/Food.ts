@@ -32,18 +32,12 @@ export const ArepasArray: Arepa[] = [{
     description: "Ternera desmechada, queso amarillo, plátano macho frito y alubias negras. El plato típico venezolano dentro de una arepa pero sin arroz y aguacate."
 }, {
     id: 6,
-    name: "Arepa Mixta:",
-    price: 7.90,
-    img: "https://via.placeholder.com/150",
-    description: "Ternera y Pollo desmenuzados con Queso amarillo. Por alta demanda de nuestros hermanos colombianos nos vimos en la obligación de incluirla en nuestra carta."
-}, {
-    id: 7,
     name: "Arepa Sifrina:",
     price: 7.90,
-    img: "https://via.placeholder.com/150",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1711146412/Cactus58/Arepa_Sifrina_fondo_negro_t2ylve.png",
     description: "Es la reina pepiada con queso amarillo. Dato: Sifrina en Vnzla es Pija."
 }, {
-    id: 8,
+    id: 7,
     name: "Arepa Tikis-Miki:",
     price: 7.90,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709890865/Cactus58/arepa_tikis_fondo_negro_qfw87j.png",
@@ -124,7 +118,7 @@ export const CachitosArray: Cachitos[] = [
     {
     id: 1,
     price: 2.80,
-    img: "https://via.placeholder.com/150",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1711146318/Cachito_fondo_negro_lbi6km.png",
 }, 
 ]
 
@@ -214,7 +208,13 @@ export const CachapasArray: Cachapas[] = [{
     price: 9.90,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891817/Cactus58/cachapa_tikis_fondo_negro_ckcmog.png",
     description: "Queso latino a la plancha y aguacate."
-}
+}, {
+    id: 9,
+    name: "Sifrina",
+    price: 9.90,
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1711146411/Cactus58/Cachapa_Sifrina_fondo_negro_exhnqt.png",
+    description: "Es la reina pepiada con queso amarillo. Dato: Sifrina en Vnzla es Pija."
+},
 ]
 
 export const BebidasArray: Bebidas[] = [{
@@ -288,6 +288,39 @@ export const BebidasArray: Bebidas[] = [{
     price: 3.50,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_205638_pkks58.jpg",
 }
+]
+
+export const ZumosNaturalesArray: ZumosNaturales[] = [
+    {
+        id: 1,
+        name: "Zumo de Mango",
+        price: 3.50,
+        img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1711146951/Cactus58/Zumo_de_Mango_kdx9jp.png"
+    }, 
+    {
+        id: 2,
+        name: "Zumo de Guayabana",
+        price: 3.50,
+        img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1711146950/Cactus58/Zumo_de_Guanabana_cccodm.png"
+    },
+    {
+        id: 3,
+        name: "Zumo de Guayaba",
+        price: 3.50,
+        img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1711146950/Cactus58/Zumo_de_Guayaba_ctruc3.png"
+    }, 
+    {
+        id: 4,
+        name: "Zumo de Maracuya",
+        price: 3.50,
+        img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1711146949/Cactus58/Zumo_de_Maracuy%C3%A1_ktmh6e.png"
+    },
+    {
+        id: 5,
+        name: "Zumo de Mora",
+        price: 3.50,
+        img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1711146949/Cactus58/Zumo_de_mora_qkrfqp.png"
+    }
 ]
 
 export const PostresArray: Postres[] = [
