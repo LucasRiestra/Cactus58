@@ -148,7 +148,7 @@ const Menu = () => {
                 ))}
             </Swiper>
             </div>
-            <h1 className='CategoryTitle'>Perrito latino</h1>
+            <h1 className='CategoryTitle'>Perrito<br/>latino</h1>
             <p className='description'>perrito de 16 cm aprox. relleno con doble salchicha de pavo, ensalada rallada de zanahoria y repollo, bacon y queso latino a la plancha, acompañado de salsas y patatas fritas. Como decimos en Venezuela: «Un perro con todos los juguetes»</p>
             <div className='firstSwiper'>
             <Swiper
