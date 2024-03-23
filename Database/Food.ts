@@ -221,7 +221,7 @@ export const BebidasArray: Bebidas[] = [{
     id: 1,
     name: "Malta Polar:",
     price: 2.50,
-    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245808/Cactus58/20240229_203658_nszzbj.jpg",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_205116_kasqha.jpg",
 }, {
     id: 2,
     name: "Coca-cola:",
