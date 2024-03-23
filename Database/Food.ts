@@ -280,7 +280,7 @@ export const BebidasArray: Bebidas[] = [{
 } , { 
     id: 13,
     name: "Frescolita:",
-    price: 3,
+    price: 2.80,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_205638_pkks58.jpg",
 }
 ]
