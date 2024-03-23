@@ -254,36 +254,31 @@ export const BebidasArray: Bebidas[] = [{
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245808/Cactus58/20240229_210708_f16d8x.jpg",
 }, {
     id: 8,
-    name: "Batidos Naturales:",
-    price: 2.50,
-    img: "https://via.placeholder.com/150",
-}, {
-    id: 9,
     name: "Malta Pony:",
     price: 1.50,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245808/Cactus58/20240229_203658_nszzbj.jpg",
 }, { 
-    id: 10,
+    id: 9,
     name: "Estrella de Galicia:",
     price: 3.50,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_215043_nfzg6m.jpg",
 }, { 
-    id: 11,
+    id: 10,
     name: "Mahou sin alcohol:",
     price: 3.50,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709247320/Cactus58/20240229_215201_dq6uav.jpg",
 }, { 
-    id: 12,
+    id: 11,
     name: "Casera de limon:",
     price: 3.50,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_215609_chsubk.jpg",
 }, { 
-    id: 13,
+    id: 12,
     name: "Cerveza Corona:",
     price: 3.50,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245808/Cactus58/20240229_214752_xexl4p.jpg",
 } , { 
-    id: 14,
+    id: 13,
     name: "Frescolita:",
     price: 3.50,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_205638_pkks58.jpg",
