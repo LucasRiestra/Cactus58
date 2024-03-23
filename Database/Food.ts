@@ -174,22 +174,22 @@ export const CachapasArray: Cachapas[] = [{
     description: "Pollo desmenuzado y guisado, también con queso amarillo."
 } , {
     id: 3,
-    name: "Domino:",
+    name: "Pabellon:",
     price: 8.90,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891820/Cactus58/Cachapa_Domino_Fondo_negro_bjzcl4.png",
-    description: "Pollo desmenuzado, con el sabor característico del cilantro y la cebolla sofrita apenas perceptible, Aguacate y mayonesa."
+    description: "Ternera desmechada, queso amarillo, platano macho frito y alubias negras."
 }, {
     id: 4,
-    name: "Pabellon:",
+    name: "Dominó:",
     price: 9.90,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891819/Cactus58/Cachapa_pabellon_Fondo_negro_idvgpb.png",
-    description: "Alubias negras y queso Fresco Latino. Aliñado con ingredientes milenarios indígenas para que no produzcan gases. P.D.: no prometemos nada."
+    description: "Alubias negras y queso Fresco Latino. Aliñado con ingredientes milenarios indígenas para que no produzcan gases"
 }, {
     id: 5,
     name: "Reina pepiada:",
     price: 9.90,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891821/Cactus58/Cachapa_reina_fondo_negro_lfvvv3.png",
-    description: "Pollo desmenuzado, con el sabor característico del cilantro y la cebolla sofrita apenas perceptible, Aguacate y mayonesa. Creada en homenaje a la miss Venezuela Susana Duijm (1955)."
+    description: "Pollo desmenuzado, con el sabor característico del cilantro y la cebolla sofrita apenas perceptible, Aguacate y mayonesa."
 }, {
     id: 6,
     name: "Mixta:",
@@ -201,7 +201,7 @@ export const CachapasArray: Cachapas[] = [{
     name: "Queso:",
     price: 8.90,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891826/Cactus58/Cachapa_queso_fondo_negro_u7haso.png",
-    description: "Con queso Latino"
+    description: "Con queso Latino."
 }, {
     id: 8,
     name: "Tikis-Miki:",
@@ -213,7 +213,7 @@ export const CachapasArray: Cachapas[] = [{
     name: "Sifrina",
     price: 9.90,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1711146411/Cactus58/Cachapa_Sifrina_fondo_negro_exhnqt.png",
-    description: "Es la reina pepiada con queso amarillo. Dato: Sifrina en Vnzla es Pija."
+    description: "Es la reina pepiada con queso amarillo."
 },
 ]
 
