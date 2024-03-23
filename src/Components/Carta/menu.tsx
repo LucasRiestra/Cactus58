@@ -5,6 +5,7 @@ import { ArepasArray, EmpanadasArray, TequeñosArray, PastelitosArray, CachitosA
 import 'swiper/swiper-bundle.css';
 import "./menu.css"
 import { useEffect, useMemo } from 'react';
+import { FaArrowRight } from 'react-icons/fa';
 
 const Menu = () => {
 
@@ -38,7 +39,7 @@ const Menu = () => {
             <p className='description'>Son tortas de masas redondas y aplastadas que se hacen a base de harina de
               maíz y se cocinan asadas a la plancha. «El pan nuestro de cada día del venezolano»
                   A continuación te presentamos las combinaciones más famosas en Venezuela.</p>
-            <p className='slide'>(Desliza)</p>
+            <p className='slide'>(Desliza) <FaArrowRight /></p>
             <div className='firstSwiper'>
             <Swiper
                 spaceBetween={50}
@@ -77,7 +78,7 @@ const Menu = () => {
             <h1 className='CategoryTitle'>Empanadas</h1>
             <p className='description'>Elaboradas con la misma masa de maíz que las arepas,
             tienen forma de media-luna y se sirven fritas. Si te dan el culito de la empanada esa persona te ama.</p>
-            <p className='slide'>(Desliza)</p>
+            <p className='slide'>(Desliza) <FaArrowRight /></p>
             <div className='firstSwiper'>
             <Swiper
                 spaceBetween={50}
@@ -97,7 +98,7 @@ const Menu = () => {
             </div>
             <h1 className='CategoryTitle'>Pastelitos</h1>
             <p className='description'>Empanadillas de harina de trigo fritas.</p>
-            <p className='slide'>(Desliza)</p>
+            <p className='slide'>(Desliza) <FaArrowRight /></p>
             <div className='firstSwiper'>
             <Swiper
                 spaceBetween={50}
@@ -183,7 +184,7 @@ const Menu = () => {
             
             <h1 className='CategoryTitle'>Cachapas</h1>
             <p className='description'>Muy parecida a las panquecas, están hechas de maíz tierno molido, se cocinan en la plancha y terminan en forma de media-luna. Tienen un sabor dulzón y se rellenan casi siempre con los mismos ingredientes que las arepas. Dato curioso: Solo el 3 % de los venezolanos sabe darle la vuelta a la cachapa.</p>
-            <p className='slide'>(Desliza)</p>
+            <p className='slide'>(Desliza) <FaArrowRight /></p>
             <div className='firstSwiper'>
             <Swiper
                 spaceBetween={50}
@@ -203,7 +204,7 @@ const Menu = () => {
             </div>
 
             <h1 className='CategoryTitle'>Zumos Naturales</h1>
-            <p className='slide'>(Desliza)</p>
+            <p className='slide'>(Desliza) <FaArrowRight /></p>
             <div className='firstSwiper'>
             <Swiper
                 spaceBetween={50}
@@ -221,7 +222,7 @@ const Menu = () => {
             </div>
 
             <h1 className='CategoryTitle'>Bebidas</h1>
-            <p className='slide'>(Desliza)</p>
+            <p className='slide'>(Desliza) <FaArrowRight /></p>
             <div className='firstSwiper'>
             <Swiper
                 spaceBetween={50}

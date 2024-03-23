@@ -86,9 +86,9 @@ export const EmpanadasArray: Empanadas[] = [{
 }, {
     id: 6,
     name: "Pabellon:",
-    price: 4.80,
+    price: 4.20,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891110/Cactus58/Empanada_Fondo_negro_xam6xl.png",
-    description: "Plátano Macho y queso Latino."
+    description: "Ternera, queso, platano macho y alubias."
 }
 ]
 
@@ -175,13 +175,13 @@ export const CachapasArray: Cachapas[] = [{
 } , {
     id: 3,
     name: "Pabellon:",
-    price: 8.90,
+    price: 9.90,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891820/Cactus58/Cachapa_Domino_Fondo_negro_bjzcl4.png",
     description: "Ternera desmechada, queso amarillo, platano macho frito y alubias negras."
 }, {
     id: 4,
     name: "Dominó:",
-    price: 9.90,
+    price: 8.90,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891819/Cactus58/Cachapa_pabellon_Fondo_negro_idvgpb.png",
     description: "Alubias negras y queso Fresco Latino."
 }, {
@@ -199,13 +199,13 @@ export const CachapasArray: Cachapas[] = [{
 }, {
     id: 7,
     name: "Queso:",
-    price: 8.90,
+    price: 6.90,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891826/Cactus58/Cachapa_queso_fondo_negro_u7haso.png",
     description: "Queso latino a la plancha."
 }, {
     id: 8,
     name: "Tikis-Miki:",
-    price: 9.90,
+    price: 8.90,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891817/Cactus58/cachapa_tikis_fondo_negro_ckcmog.png",
     description: "Queso latino a la plancha y aguacate."
 }, {
@@ -225,62 +225,62 @@ export const BebidasArray: Bebidas[] = [{
 }, {
     id: 2,
     name: "Coca-cola:",
-    price: 2.50,
+    price: 1.80,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_204400_aff3ny.jpg",
 }, {
     id: 3,
     name: "Coca-cola Zero:",
-    price: 2.50,
+    price: 1.80,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_204757_jck8eu.jpg",
 }, {
     id: 4,
     name: "Aquarius Limón:",
-    price: 2.50,
+    price: 1.80,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245810/Cactus58/20240229_212355_zmxfck.jpg",
 }, {
     id: 5,
     name: "Cerveza Polar:",
-    price: 3.50,
+    price: 3,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709894316/Cactus58/WhatsApp_Image_2024-03-08_at_11.33.11_AM_hswiqj.jpg",
 }, {
     id: 6,
     name: "Fanta Naranja:",
-    price: 3.50,
+    price: 1.80,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245810/Cactus58/20240229_210403_y6edx7.jpg",
 }, {
     id: 7,
     name: "Nestea:",
-    price: 2.50,
+    price: 1.80,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245808/Cactus58/20240229_210708_f16d8x.jpg",
 }, {
     id: 8,
     name: "Malta Pony:",
-    price: 1.50,
+    price: 2.80,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245808/Cactus58/20240229_203658_nszzbj.jpg",
 }, { 
     id: 9,
     name: "Estrella de Galicia:",
-    price: 3.50,
+    price: 3,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_215043_nfzg6m.jpg",
 }, { 
     id: 10,
     name: "Mahou sin alcohol:",
-    price: 3.50,
+    price: 3,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709247320/Cactus58/20240229_215201_dq6uav.jpg",
 }, { 
     id: 11,
     name: "Casera de limon:",
-    price: 3.50,
+    price: 3,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_215609_chsubk.jpg",
 }, { 
     id: 12,
     name: "Cerveza Corona:",
-    price: 3.50,
+    price: 3,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245808/Cactus58/20240229_214752_xexl4p.jpg",
 } , { 
     id: 13,
     name: "Frescolita:",
-    price: 3.50,
+    price: 3,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_205638_pkks58.jpg",
 }
 ]
@@ -322,7 +322,7 @@ export const PostresArray: Postres[] = [
     {
         id: 1,
         name: "Tres Leches:",
-        price: 4.50,
+        price: 5,
         img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245808/Cactus58/20240229_221426_o7ypif.jpg",
         description:"Consiste en un bizcocho bañado en tres tipos de leche: leche evaporada, leche condensada y crema de leche. Se sirve frío y puede llevar merengue o crema chantilly."
     }, 
