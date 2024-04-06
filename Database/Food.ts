@@ -318,7 +318,7 @@ export const ZumosNaturalesArray: ZumosNaturales[] = [
     },
     {
         id: 6,
-        name: "Zumo de papelon con limón",
+        name: "Papelon con limón",
         price: 3.50,
         img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1712406430/Cactus58/image_41_px9ldl.png"
     }
