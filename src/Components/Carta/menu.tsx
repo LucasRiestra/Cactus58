@@ -1,13 +1,19 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEuroSign } from '@fortawesome/free-solid-svg-icons'
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide} from 'swiper/react';
+import SwiperCore from 'swiper';
 import { ArepasArray, EmpanadasArray, TequeñosArray, PastelitosArray, CachitosArray, SalchipapaArray, CachapasArray, BebidasArray, PostresArray, PerritoArray, PepitoArray, ZumosNaturalesArray} from '../../../Database/Food';
 import 'swiper/swiper-bundle.css';
 import "./menu.css"
 import { useEffect, useMemo } from 'react';
 import { FaArrowRight } from 'react-icons/fa';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
 
 const Menu = () => {
+
+    SwiperCore.use([Pagination]);
 
     const foodData = useMemo(() => ({
         arepas: ArepasArray,
@@ -45,12 +51,12 @@ const Menu = () => {
                 spaceBetween={50}
                 slidesPerView={1}
                 loop={true}
+                pagination={{ clickable: true }} 
             >
                 {foodData.arepas.map((arepa) => (
                     <SwiperSlide key={arepa.id}>
                         <h2 className="eatTitle">{arepa.name}</h2>
                         <img className="slider-image" src={arepa.img} alt={arepa.name} />
-                        
                         <p className='description'>{arepa.description}</p>
                         <p className='price'>Precio: {arepa.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
                     </SwiperSlide>
@@ -84,6 +90,7 @@ const Menu = () => {
                 spaceBetween={50}
                 slidesPerView={1}
                 loop={true}
+                pagination={{ clickable: true }} 
             >
                 {foodData.empanadas.map((empanada) => (
                     <SwiperSlide key={empanada.id}>
@@ -104,6 +111,7 @@ const Menu = () => {
                 spaceBetween={50}
                 slidesPerView={1}
                 loop={true}
+                pagination={{ clickable: true }} 
             >
                 {foodData.pastelitos.map((empanada) => (
                     <SwiperSlide key={empanada.id}>
@@ -139,6 +147,7 @@ const Menu = () => {
                 spaceBetween={50}
                 slidesPerView={1}
                 loop={true}
+                pagination={{ clickable: true }} 
             >
                 {foodData.salchipapa.map((tequeños) => (
                     <SwiperSlide key={tequeños.id}>
@@ -156,6 +165,7 @@ const Menu = () => {
                 spaceBetween={50}
                 slidesPerView={1}
                 loop={true}
+                
             >
                 {foodData.perrito.map((tequeños) => (
                     <SwiperSlide key={tequeños.id}>
@@ -190,6 +200,7 @@ const Menu = () => {
                 spaceBetween={50}
                 slidesPerView={1}
                 loop={true}
+                pagination={{ clickable: true }} 
             >
                 {foodData.cachapas.map((arepa) => (
                     <SwiperSlide key={arepa.id}>
@@ -210,6 +221,7 @@ const Menu = () => {
                 spaceBetween={50}
                 slidesPerView={1}
                 loop={true}
+                pagination={{ clickable: true }} 
             >
                 {foodData.zumos.map((arepa) => (
                     <SwiperSlide key={arepa.id}>
@@ -228,6 +240,7 @@ const Menu = () => {
                 spaceBetween={50}
                 slidesPerView={1}
                 loop={true}
+                pagination={{ clickable: true }} 
             >
                 {foodData.bebidas.map((arepa) => (
                     <SwiperSlide key={arepa.id}>

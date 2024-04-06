@@ -74,6 +74,10 @@ h2.eatTitle{
     margin-bottom: 2vh;
 }
 
+.firstSwiper .swiper-pagination {
+    margin-top: 1vh;
+  }
+
 
 @media screen and (max-width: 600px) {
     .CategoryTitle{
@@ -116,10 +120,20 @@ h2.eatTitle{
         font-size: 3vh;
         color: var(--color-naranja);
         margin-bottom: 2vh;
+        padding-bottom: 1vh;
     }
 
     .Foods{
         margin-top: 9vh;
     }
+
+    .firstSwiper .swiper-pagination {
+        padding-top: 1vh;
+      }
+
+      .firstSwiper .swiper-pagination-bullet-active {
+        
+        background: rgb(70, 70, 70); /* Cambia esto al color que prefieras */
+      }
 
 }
