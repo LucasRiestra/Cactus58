@@ -176,13 +176,13 @@ export const CachapasArray: Cachapas[] = [{
     id: 3,
     name: "Pabellon:",
     price: 9.90,
-    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891820/Cactus58/Cachapa_Domino_Fondo_negro_bjzcl4.png",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891819/Cactus58/Cachapa_pabellon_Fondo_negro_idvgpb.png",
     description: "Ternera desmechada, queso amarillo, platano macho frito y alubias negras."
 }, {
     id: 4,
     name: "Dominó:",
     price: 8.90,
-    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891819/Cactus58/Cachapa_pabellon_Fondo_negro_idvgpb.png",
+    img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709891820/Cactus58/Cachapa_Domino_Fondo_negro_bjzcl4.png",
     description: "Alubias negras y queso Fresco Latino."
 }, {
     id: 5,
@@ -260,12 +260,12 @@ export const BebidasArray: Bebidas[] = [{
 }, { 
     id: 9,
     name: "Estrella de Galicia:",
-    price: 3,
+    price: 2.50,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709245809/Cactus58/20240229_215043_nfzg6m.jpg",
 }, { 
     id: 10,
     name: "Mahou sin alcohol:",
-    price: 3,
+    price: 2.50,
     img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1709247320/Cactus58/20240229_215201_dq6uav.jpg",
 }, { 
     id: 11,
@@ -294,7 +294,7 @@ export const ZumosNaturalesArray: ZumosNaturales[] = [
     }, 
     {
         id: 2,
-        name: "Zumo de Guayabana",
+        name: "Zumo de Guanábana",
         price: 3.50,
         img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1711146950/Cactus58/Zumo_de_Guanabana_cccodm.png"
     },
