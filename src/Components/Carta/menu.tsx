@@ -6,7 +6,7 @@ import { ArepasArray, EmpanadasArray, TequeñosArray, PastelitosArray, CachitosA
 import 'swiper/swiper-bundle.css';
 import "./menu.css"
 import { useEffect, useMemo } from 'react';
-import { FaArrowRight } from 'react-icons/fa';
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
@@ -45,18 +45,17 @@ const Menu = () => {
             <p className='description'>Son tortas de masas redondas y aplastadas que se hacen a base de harina de
               maíz y se cocinan asadas a la plancha. «El pan nuestro de cada día del venezolano»
                   A continuación te presentamos las combinaciones más famosas en Venezuela.</p>
-            <p className='slide'>(Desliza) <FaArrowRight /></p>
             <div className='firstSwiper'>
             <Swiper
-                spaceBetween={50}
+                spaceBetween={0}
                 slidesPerView={1}
                 loop={true}
-                pagination={{ clickable: true }} 
             >
                 {foodData.arepas.map((arepa) => (
                     <SwiperSlide key={arepa.id}>
                         <h2 className="eatTitle">{arepa.name}</h2>
                         <img className="slider-image" src={arepa.img} alt={arepa.name} />
+                        <p className='slide desliza'><FaArrowLeft /> (Desliza) <FaArrowRight /></p>
                         <p className='description'>{arepa.description}</p>
                         <p className='price'>Precio: {arepa.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
                     </SwiperSlide>
@@ -84,19 +83,17 @@ const Menu = () => {
             <h1 className='CategoryTitle'>Empanadas</h1>
             <p className='description'>Elaboradas con la misma masa de maíz que las arepas,
             tienen forma de media-luna y se sirven fritas. Si te dan el culito de la empanada esa persona te ama.</p>
-            <p className='slide'>(Desliza) <FaArrowRight /></p>
             <div className='firstSwiper'>
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
                 loop={true}
-                pagination={{ clickable: true }} 
             >
                 {foodData.empanadas.map((empanada) => (
                     <SwiperSlide key={empanada.id}>
                         <h2 className="eatTitle">{empanada.name}</h2>
                         <img className="slider-image" src={empanada.img} alt={empanada.name} />
-                        
+                        <p className='slide desliza'><FaArrowLeft /> (Desliza) <FaArrowRight /></p>
                         <p className='description'>{empanada.description}</p>
                         <p className='price'>Precio: {empanada.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
                     </SwiperSlide>
@@ -105,19 +102,17 @@ const Menu = () => {
             </div>
             <h1 className='CategoryTitle'>Pastelitos</h1>
             <p className='description'>Empanadillas de harina de trigo fritas.</p>
-            <p className='slide'>(Desliza) <FaArrowRight /></p>
             <div className='firstSwiper'>
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
                 loop={true}
-                pagination={{ clickable: true }} 
             >
                 {foodData.pastelitos.map((empanada) => (
                     <SwiperSlide key={empanada.id}>
                         <h2 className="eatTitle">{empanada.name}</h2>
                         <img className="slider-image" src={empanada.img} alt={empanada.name} />
-                        
+                        <p className='slide desliza'><FaArrowLeft /> (Desliza) <FaArrowRight /></p>
                         <p className='description'>{empanada.description}</p>
                         <p className='price'>Precio: {empanada.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
                     </SwiperSlide>
@@ -146,13 +141,13 @@ const Menu = () => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                loop={true}
-                pagination={{ clickable: true }} 
+                loop={true} 
             >
                 {foodData.salchipapa.map((tequeños) => (
                     <SwiperSlide key={tequeños.id}>
                         <h2 className="eatTitle">{tequeños.name}</h2>
                         <img className="slider-image" src={tequeños.img} />
+                        <p className='slide desliza'><FaArrowLeft /> (Desliza) <FaArrowRight /></p>
                         <p className='price'>Precio: {tequeños.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
                     </SwiperSlide>
                 ))}
@@ -194,21 +189,20 @@ const Menu = () => {
             
             <h1 className='CategoryTitle'>Cachapas</h1>
             <p className='description'>Muy parecida a las panquecas, están hechas de maíz tierno molido, se cocinan en la plancha y terminan en forma de media-luna. Tienen un sabor dulzón y se rellenan casi siempre con los mismos ingredientes que las arepas. Dato curioso: Solo el 3 % de los venezolanos sabe darle la vuelta a la cachapa.</p>
-            <p className='slide'>(Desliza) <FaArrowRight /></p>
+            
             <div className='firstSwiper'>
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                loop={true}
-                pagination={{ clickable: true }} 
+                loop={true} 
             >
                 {foodData.cachapas.map((arepa) => (
                     <SwiperSlide key={arepa.id}>
                         <h2 className="eatTitle">{arepa.name}</h2>
                         <img className="slider-image-cachapa" src={arepa.img} alt={arepa.name} />
+                        <p className='slide desliza'><FaArrowLeft /> (Desliza) <FaArrowRight /></p>
                         <p className='description'>{arepa.description}</p>
                         <p className='price'>Precio: {arepa.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
-                        
                     </SwiperSlide>
                 ))}
             </Swiper>
@@ -220,13 +214,13 @@ const Menu = () => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                loop={true}
-                pagination={{ clickable: true }} 
+                loop={true} 
             >
                 {foodData.zumos.map((arepa) => (
                     <SwiperSlide key={arepa.id}>
                         <h2 className="eatTitle">{arepa.name}</h2>
                         <img className="slider-image-drinks" src={arepa.img} alt={arepa.name} />
+                        <p className='slide desliza'><FaArrowLeft /> (Desliza) <FaArrowRight /></p>
                         <p className='price'>Precio: {arepa.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
                     </SwiperSlide>
                 ))}
@@ -239,13 +233,13 @@ const Menu = () => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                loop={true}
-                pagination={{ clickable: true }} 
+                loop={true} 
             >
                 {foodData.bebidas.map((arepa) => (
                     <SwiperSlide key={arepa.id}>
                         <h2 className="eatTitle">{arepa.name}</h2>
                         <img className="slider-image-drinks" src={arepa.img} alt={arepa.name} />
+                        <p className='slide desliza'><FaArrowLeft /> (Desliza) <FaArrowRight /></p>
                         <p className='price'>Precio: {arepa.price.toFixed(2)} <FontAwesomeIcon icon={faEuroSign} /></p>
                     </SwiperSlide>
                 ))}

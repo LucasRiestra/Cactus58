@@ -78,6 +78,10 @@ h2.eatTitle{
     margin-top: 1vh;
   }
 
+  .firstSwiper .swiper-pagination {
+    position: absolute;
+    bottom: 500px; /* Ajusta este valor según tus necesidades */
+  }
 
 @media screen and (max-width: 600px) {
     .CategoryTitle{
@@ -127,8 +131,8 @@ h2.eatTitle{
         margin-top: 9vh;
     }
 
-    .firstSwiper .swiper-pagination {
-        padding-top: 1vh;
+    .firstSwiper {
+        position: relative;
       }
 
       .firstSwiper .swiper-pagination-bullet-active {
@@ -136,4 +140,9 @@ h2.eatTitle{
         background: rgb(70, 70, 70); /* Cambia esto al color que prefieras */
       }
 
+    .slide.desliza{
+        margin-top: 1vh;
+        margin-bottom: 0;
+        opacity: 0.7;
+    }
 }
