@@ -315,6 +315,12 @@ export const ZumosNaturalesArray: ZumosNaturales[] = [
         name: "Zumo de Mora",
         price: 3.50,
         img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1711146949/Cactus58/Zumo_de_mora_qkrfqp.png"
+    },
+    {
+        id: 6,
+        name: "Zumo de papelon con limón",
+        price: 3.50,
+        img: "https://res.cloudinary.com/dtqgzojs3/image/upload/v1712406430/Cactus58/image_41_px9ldl.png"
     }
 ]
 
